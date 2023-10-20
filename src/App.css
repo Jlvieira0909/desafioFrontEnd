@@ -1,0 +1,335 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  background-color: #F3F4F8;
+  height: 1080px;
+  width: 1920px;
+}
+
+.sideBar{
+  background-color: #03363D;
+  height: 1003px;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 77px;
+}
+
+.sideBarNav{
+  display: flex;
+  flex-direction: column;
+  padding-top: 77px;
+}
+
+.sideBarContent{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 14px;
+  margin-top: 24px;
+  }
+
+.Label{
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.LabelDisconnect{
+  color: #CC4141;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.App-header {
+  background-color: #F3F4F8;
+  height: 1080px;
+  width: 1620px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #03363D;
+}
+
+.Header{
+  min-width: 1184px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.HelloUser{
+  color: #272727;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 42px */
+}
+
+.UserNav{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap:24px;
+}
+
+.Profile{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Username{
+  color: #272727;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+}
+
+.Movies{
+  width: 1104px;
+  height: 335px;
+  border-radius: 4px;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.MoviesLabel{
+  color: #272727;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.4px;
+}
+
+.MoviesMask{
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.MovieRow{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.MovieDescription{
+  display: flex;
+  flex-direction: row;
+  width: 512px;
+  height: 50px;
+  border-radius: 6px;
+  background: rgba(3, 54, 61, 0.06);
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 13px;
+  padding-right: 19px;
+  margin-top: 20px;
+}
+
+.MovieTitle{
+  color: #03363D;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+
+.MovieDate{
+  color: #03363D;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.SearchCards{
+  display: flex;
+  flex-direction: row;
+  margin-top: 35px;
+  width: 1184px;
+  justify-content: space-between;
+}
+
+.Card{
+  width: 254px;
+  height: 96px;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFF;
+  padding-left: 24px;
+  padding-top: 20px;
+}
+
+.CardTitle{
+  color: rgba(0, 0, 0, 0.45);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin: 0px;
+}
+
+.CardContent{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 8px;
+}
+
+.CurrentData{
+  color: rgba(0, 0, 0, 0.85);
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px; 
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0px;
+  margin-left: 8px;
+}
+
+.TableBG{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 1184px;
+  height: auto;
+  margin-top: 32px;
+  background-color: #FFF;
+}
+
+.TableHeader{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1124px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+
+.TableTitle{
+  color: rgba(0, 0, 0, 0.65);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.TableDivider{
+  margin: 0px;
+}
+
+.TableDiv{
+  display: flex;
+  flex-direction: row;
+  width: 1092px;
+  margin-top: 25px;
+}
+
+.TableDataIni{
+  width: 224px;
+  background-color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 32px;
+}
+
+.TableParams{
+  height: 55px;
+  width: 224px;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 16px;
+}
+
+.TableData{
+  width: 224px;
+  background-color: #FAFAFA;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.TableResult{
+  height: 55px;
+  width: 224px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.65);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px; /* 157.143% */
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 16px;
+}
